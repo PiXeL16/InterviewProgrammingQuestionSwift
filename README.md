@@ -1,2 +1,2 @@
 # InterviewProgrammingQuestionSwift
-Some popular interview programming questions solved in Swift
+Just me solving Some popular interview programming questions in Swift
