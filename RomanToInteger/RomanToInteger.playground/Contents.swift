@@ -25,16 +25,14 @@ func romanToInt(_ s: String) -> Int {
         var value = romans[String(element)]!
         
         if pastValue < value {
-            total += value
-        } else {
-            total -= value
+            value = value - pastValue * 2
         }
         
         pastValue = value
-        
+        total += value
     }
     
     return total
 }
 
-romanToInt("XIV")
+romanToInt("MCMXCIX")
